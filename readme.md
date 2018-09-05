@@ -1,5 +1,5 @@
 Building a Blog using Laravel
-<p align="center">
+<p>
 This is a demo application showing how to build a simple content management system using Laravel. You can read about how it was created on my blog.
 </p>
 
@@ -31,6 +31,7 @@ You can also download the entire repository as a zip file and unpack in on your 
 After cloning the application, you need to install it's dependencies.
 
 $ cd blog
+
 $ composer install
 
 ## Setup
@@ -43,9 +44,6 @@ $ cp .env.example .env
 
 $ php artisan key:generate
 
-    Install Passport
-
-$ php artisan passport:install
 
     Add your database credentials to the necessary env fields
 
